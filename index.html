@@ -266,6 +266,7 @@
             </div>
         </header>
 
+
         <main class="row">
             <div class="row text-center">
                 <div class="col-4">
@@ -305,20 +306,22 @@
                 </div>
                 <div class="card">
                     <h1 class="text-center">FAQ</h1>
-                    <p class="d-inline-flex gap-1">
-                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#txt1" role="button"
-                           aria-expanded="false" aria-controls="txt1">
-                            Как купить?
-                        </a>
-                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#txt2" role="button"
-                           aria-expanded="false" aria-controls="txt2">
-                            Как доставить?
-                        </a>
-                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#txt3" role="button"
-                           aria-expanded="false" aria-controls="txt3">
-                            Какая гарантия?
-                        </a>
-                    </p>
+                    <div class="text-center">
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#txt1" role="button"
+                               aria-expanded="false" aria-controls="txt1">
+                                Как купить?
+                            </a>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#txt2" role="button"
+                               aria-expanded="false" aria-controls="txt2">
+                                Как доставить?
+                            </a>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#txt3" role="button"
+                               aria-expanded="false" aria-controls="txt3">
+                                Какая гарантия?
+                            </a>
+                        </p>
+                    </div>
                     <div class="collapse" id="txt1">
                         <div class="card card-body">
                             Переводи деньги
@@ -335,6 +338,57 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="card">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Номер</th>
+                            <th scope="col">Название товара</th>
+                            <th scope="col">Цена за штука</th>
+                            <th scope="col">Кол-во</th>
+                            <th scope="col">Итоговая сумма</th>
+                            <th scope="col">Статус заказа</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Наушники</td>
+                            <td>1500</td>
+                            <td>5</td>
+                            <td>7500</td>
+                            <td class="table-light">Новый</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Турбина</td>
+                            <td>95000</td>
+                            <td>1</td>
+                            <td>95000</td>
+                            <td class="table-warning">Обработка</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Чай</td>
+                            <td>1200</td>
+                            <td>2</td>
+                            <td>2400</td>
+                            <td class="table-success">Обработан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Диск</td>
+                            <td>35000</td>
+                            <td>4</td>
+                            <td>140000</td>
+                            <td class="table-danger">Отмена</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
             </div>
         </main>
 
